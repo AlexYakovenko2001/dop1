@@ -17,6 +17,8 @@ function App() {
    setGet([])
 
   }
+
+
   const [get, setGet] = useState<Array<GetType>>([])
 
     useEffect(()=>{
